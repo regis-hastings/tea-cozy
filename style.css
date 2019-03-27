@@ -80,13 +80,30 @@ main {
   margin-bottom: 10px;
 }
 
+.monthly-feature-header {
+  margin-top: 50px;
+  width: 1200px;
+  margin: auto;
+}
+
 .monthly-feature {
   width: 1000px;
+  justify-content: center;
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
 }
 
 .featured-item {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.featured-item p {
+  margin-top: 10px;
+}
+
+.feature-image {
   width: 300px;
   height: 200px;
   background-size: cover;
@@ -110,4 +127,42 @@ main {
 
 .feature5 {
   background-image: url("./img-bedford-bizarre.jpg");
+}
+
+.locations {
+  width: 1200px;
+  height: 500px;
+  background-image: url("./img-locations-background.jpg");
+  background-position: center;
+  margin: 50px auto 0 auto;
+  padding-top: 11px;
+}
+
+.cities {
+  display: flex;
+  justify-content: center;
+}
+
+.city {
+  background-color: black;
+  opacity: .9;
+  width: 300px;
+  height: 275px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+}
+
+h5 {
+  margin: 20px auto;
+}
+
+#copyright {
+  text-align: left;
+  margin-left: 20px;
 }
