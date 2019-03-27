@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  margin: 0 auto;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  justify-content: center;
+}
+
+header {
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  z-index: 1;
+  background-color: black;
+  align-items: center;
+}
+
+.logo {
+  width: 50%;
+}
+
+.logo img {
+  height: 50px;
+  width: auto;
+  margin-left: 10px;
+}
+
+nav {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+
+li {
+  display: inline-block;
+  text-decoration: underline;
+  margin-left: 15px;
+}
+
+main {
+  position: relative;
+  top: 62px;
+  text-align: center;
+  margin: auto;
+}
+
+.jumbotron {
+  width: 1200px;
+  height: 700px;
+  background-image: url("./img-mission-background.jpg");
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner {
+  width: 100%;
+  background-color: black;
+}
+
+.banner h2 { 
+  margin-top: 10px;
+  margin-bottom: 15px
+}
+
+.banner h4 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.monthly-feature {
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.featured-item {
+  width: 300px;
+  height: 200px;
+  background-size: cover;
+}
+
+.feature1 {
+  background-image: url("./img-berryblitz.jpg");
+}
+
+.feature2 {
+  background-image: url("./img-berryblitz.jpg");
+}
+
+.feature3 {
+  background-image: url("./img-donut.jpg");
+}
+
+.feature4 {
+  background-image: url("./img-myrtle-ave.jpg");
+}
+
+.feature5 {
+  background-image: url("./img-bedford-bizarre.jpg");
+}
