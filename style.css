@@ -86,6 +86,12 @@ main {
   margin: auto;
 }
 
+.feature-container {
+  width: 1200px;
+  justify-content: center;
+  margin: auto;
+}
+
 .monthly-feature {
   width: 1000px;
   justify-content: center;
@@ -114,7 +120,7 @@ main {
 }
 
 .feature2 {
-  background-image: url("./img-berryblitz.jpg");
+  background-image: url("./img-rum.jpeg");
 }
 
 .feature3 {
